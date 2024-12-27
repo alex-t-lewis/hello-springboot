@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-boot-demo
+  description: A simple Spring Boot demo app
+  tags:
+    - java
+    - spring
+spec:
+  type: service
+  lifecycle: experimental
+  owner: your-team-name
